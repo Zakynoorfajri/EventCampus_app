@@ -1,0 +1,43 @@
+name: uas_pemrograman_mobile_23552010157
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/events.json
+    - assets/images/
+    - assets/logo/
+
+fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/logo_eventcampus.png"
+  adaptive_icon_background: "#172554"
+  adaptive_icon_foreground: "assets/images/logo_eventcampus.png"
