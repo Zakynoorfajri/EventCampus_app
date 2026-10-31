@@ -16,21 +16,15 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.14.0
 
-  flutter_launcher_icons:
-  android: true
-  ios: false
-  image_path: "assets/logo/logo_eventcampus.png"
-  adaptive_icon_background: "#172554"
-  adaptive_icon_foreground: "assets/logo/logo_eventcampus.png"
-
 flutter:
   uses-material-design: true
+
   assets:
     - assets/data/events.json
     - assets/images/
     - assets/logo/
 
-fonts:
+  fonts:
     - family: PlusJakartaSans
       fonts:
         - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
@@ -46,5 +40,6 @@ flutter_launcher_icons:
   android: true
   ios: false
   image_path: "assets/logo/logo_eventcampus.png"
+  min_sdk_android: 21
   adaptive_icon_background: "#172554"
   adaptive_icon_foreground: "assets/logo/logo_eventcampus.png"
