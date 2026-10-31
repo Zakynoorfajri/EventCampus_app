@@ -27,6 +27,9 @@ jobs:
       - name: Ambil dependensi
         run: flutter pub get
 
+      - name: Buat ikon aplikasi
+        run: dart run flutter_launcher_icons
+
       - name: Build APK release
         run: flutter build apk --release
 
