@@ -3,7 +3,7 @@ name: Build APK
 on:
   push:
     branches: [main]
-  workflow_dispatch: # memungkinkan tombol "Run workflow" manual
+  workflow_dispatch:
 
 jobs:
   build:
@@ -27,10 +27,8 @@ jobs:
       - name: Ambil dependensi
         run: flutter pub get
 
-
       - name: Buat ikon aplikasi
         run: dart run flutter_launcher_icons
-
 
       - name: Build APK release
         run: flutter build apk --release
@@ -39,4 +37,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: eventcampus-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
           path: build/app/outputs/flutter-apk/app-release.apk
