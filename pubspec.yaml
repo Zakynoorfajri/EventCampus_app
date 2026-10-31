@@ -19,7 +19,7 @@ dev_dependencies:
   flutter_launcher_icons:
   android: true
   ios: false
-  image_path: "assets/images/logo_eventcampus.png"
+  image_path: "assets/logo/logo_eventcampus.png"
   adaptive_icon_background: "#172554"
   adaptive_icon_foreground: "assets/logo/logo_eventcampus.png"
 
@@ -45,6 +45,6 @@ fonts:
 flutter_launcher_icons:
   android: true
   ios: false
-  image_path: "assets/images/logo_eventcampus.png"
+  image_path: "assets/logo/logo_eventcampus.png"
   adaptive_icon_background: "#172554"
-  adaptive_icon_foreground: "assets/images/logo_eventcampus.png"
+  adaptive_icon_foreground: "assets/logo/logo_eventcampus.png"
